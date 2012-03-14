@@ -6,8 +6,8 @@
     <title>{% if page.title %} {{page.title}} | Ardent Dev Blog {% else %} Ardent Leisure Development Blog | The team behind the scene. {% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="/img/favicon.ico">
-    <!--<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
-    <link rel="stylesheet" href="/css/prettify.css" type="text/css" media="screen, projection" />-->
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="/css/prettify.css" type="text/css" media="screen, projection" />
     <!--<link href="http://devblog.ardentleisure.com/atom.xml" rel="alternate" title="dkdevelopment" type="application/atom+xml" />-->
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -21,15 +21,13 @@
         <header id="branding">
 			<hgroup>
 				<h1 id="site-title"><span><a href="/" title="Ardent Dev Blog" rel="home">Ardent Dev Blog</a></span></h1>
-
-				<h2 id="site-description">The team behind the scene.</h2>
 			</hgroup>
 
             <nav id="access" role="navigation">
 			    <ul>
-                    <li class="headitem">Info</li>
                     <li><a href="/">Home</a></li>
                     <li><a href="/our-team/">Our Team</a></li>
+                    <li><a href="/">Rss</a></li>
                 </ul>
 
 			</nav><!-- #access -->
@@ -41,6 +39,35 @@
             <div id="content">
                 {{ content }}
             </div>
+        </div>
+        <div id="secondary" class="widget-area">
+            <aside id="blogby">
+                <h3 class="widget-title">Ardent Leisure</h3>
+                <p>
+                    Ardent Leisure is one of Australia's most successful owners and operators of premium leisure assets.
+                </p>
+                <p>
+                    Our development team has the opportunity to work on a wide range of projects across the different companies.
+                </p>
+            </aside>
+            <aside id="text-3" class="widget widget_text">
+                <h3 class="widget-title">Nav</h3>
+                <div class="textwidget">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/our-team/">Our Team</a></li>
+                        <li><a href="/">Rss</a></li>
+                    </ul>
+                </div>
+	        </aside>
+            <aside id="recent-posts-3" class="widget widget_recent_entries">
+                <h3 class="widget-title">Recent</h3>
+                <ul>
+                    {% for post in site.posts limit: 10 %}
+                        <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+                    {% endfor %}
+		        </ul>
+	        </aside>
         </div>
     </div>
     <footer id="footer">

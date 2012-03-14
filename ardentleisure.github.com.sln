@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ardentleisure.github.com", "..\..\..\..\..\..\work\github\ardentleisure.github.com\", "{A7AFDBD8-FB00-436E-BA1D-19905A296CC2}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ardentleisure.github.com", ".", "{A7AFDBD8-FB00-436E-BA1D-19905A296CC2}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/ardentleisure.github.com"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\work\github\ardentleisure.github.com\"
+		Debug.AspNetCompiler.PhysicalPath = "."
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ardentleisure.github.com\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/ardentleisure.github.com"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\work\github\ardentleisure.github.com\"
+		Release.AspNetCompiler.PhysicalPath = "."
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ardentleisure.github.com\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"

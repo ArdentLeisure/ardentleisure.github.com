@@ -1,7 +1,7 @@
 ---
 title: Building Dreamworld Ecommerce (PurpleSmoke)
-date: 
-layout: post
+date: 2012-03-15
+layout: post-dk
 categories:
 - Projects
 tags: []

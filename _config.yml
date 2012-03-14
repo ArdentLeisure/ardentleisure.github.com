@@ -1,2 +1,2 @@
 name: ArdentLeisure
-permalink: /:year/:title/
+permalink: /:year/:month/:day/:title/
