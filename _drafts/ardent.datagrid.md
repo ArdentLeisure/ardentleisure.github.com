@@ -1,7 +1,7 @@
 ---
 title: Ardent.DataGrid
 date: 
-layout: post
+layout: post-dk
 categories:
 - Code
 tags: []

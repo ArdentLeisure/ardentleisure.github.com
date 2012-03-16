@@ -20,3 +20,10 @@ tags: []
 	We also have massive amounts of data that we get to work with on a daily basis. Goodlife have 46 gyms across Australia all synchronising data to our central server using SQL Server replication.
 </p>
 
+<p><strong>What's Next?</strong></p>
+<p>I am planning on making 2012 a great year for Ardent Leisure among the developer community and to do this I am going to do 3 main things:</p>
+<ul>
+    <li>This blog, posting about who we are and some of the great things we are doing</li>
+    <li>User groups, conferences and other community events, both attending and presenting (hopefully)</li>
+    <li>Open source, planning on getting more involved in the open source community by created some of our own projects as well as contributing to others</li>
+</ul>
