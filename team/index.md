@@ -7,7 +7,7 @@ permalink: /team/
 <h1>Meet our team</h1>
 
 <p>
-	Our team is made up of 4 dudes each 
+	Our team is made up of 4 dudes each very talented and hard working.
 </p>
 
 <ul class="ourteam">

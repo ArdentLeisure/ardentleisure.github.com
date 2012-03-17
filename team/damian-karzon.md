@@ -4,9 +4,15 @@ layout: page
 permalink: /team/damian-karzon/
 ---
 
-<div >
+<div class="memberdetails">
+	<div class="sidebar">
+		<img src="http://1.gravatar.com/avatar/1ea2829caf0b9135cd7ece795ccde774?size=72" border="0" alt="Author" class="authimg" />
+		<ul class="memberlinks">
+			<li class="blog"><a href="http://dkdevelopment.net">Damian's Blog</a></li>
+			<li class="twitter"><a href="https://twitter.com/d1k_is">Twitter</a></li>
+		</ul>
+	</div>
 
-    <img src="http://1.gravatar.com/avatar/1ea2829caf0b9135cd7ece795ccde774?size=60" border="0" alt="Author" class="authimg" />
 
     <p><em>Lead Software Developer</em></p>
 
@@ -15,9 +21,5 @@ permalink: /team/damian-karzon/
     </p>
 
     <p>With over 5 years experience in software development, Damian has had </p>
-
-    <div class="memberlinks">
-        <a href="http://dkdevelopment.net">Blog</a>
-    </div>
 
 </div>

@@ -496,6 +496,20 @@ li.member
         margin-right: 6px;
     }
 
+/*** Our Team Details ***/
+.memberdetails
+{
+    
+}
+    .memberdetails .sidebar {
+        float: left;
+        width:  120px;
+        margin-right: 12px;
+    }
+        .memberdetails .sidebar img {
+            margin-left: 12px;
+        }
+
 /*** Footer ***/
 #footpower
 {
