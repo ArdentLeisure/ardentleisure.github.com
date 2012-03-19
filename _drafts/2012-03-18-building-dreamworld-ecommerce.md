@@ -30,4 +30,4 @@ tags: []
 <h3>About our team</h3>
 <p>Over the past 12 months our team has changed several times, we have had staff leave, new staff come on and even had a 3rd party development firm join the project.</p>
 
-<h3>Whats next?</h3>
+<h3>Future Releases</h3>

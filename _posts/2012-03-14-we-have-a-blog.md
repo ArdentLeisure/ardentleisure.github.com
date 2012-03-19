@@ -2,6 +2,8 @@
 title: We have a blog!
 date: 2012-03-14
 layout: post-dk
+categories:
+- DK
 tags: []
 ---
 
