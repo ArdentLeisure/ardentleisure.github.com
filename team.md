@@ -1,10 +1,8 @@
 ---
-title: Our Team
+title: Meet Our Team
 layout : page
 permalink: /team/
 ---
-
-<h1>Meet our team</h1>
 
 <p>
 	Our team is made up of 4 dudes each very talented and hard working.
