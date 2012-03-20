@@ -23,7 +23,7 @@ tags: []
     <li>Fast!</li>
     <li>Customisable</li>
     <li>Stable/Scalable (Whatever that means)</li>
-	<li>Able to support multiple sites (Dreamworld, SkyPoint, Reseller, etc.)
+    <li>Able to support multiple sites (Dreamworld, SkyPoint, Reseller, etc.)</li>
 </ul>
 
 <h3>We started with a new architecture</h3>
