@@ -261,7 +261,8 @@ ol {
   list-style: decimal;
 }
 li {
-  color: #808080;
+  color: #404040;
+  margin-bottom: 6px;
 }
 ul.unstyled {
   list-style: none;

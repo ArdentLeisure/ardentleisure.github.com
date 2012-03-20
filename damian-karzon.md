@@ -22,4 +22,11 @@ permalink: /team/damian-karzon/
 
     <p>With over 5 years experience in software development.</p>
 
+	<h3>Posts by Damian</h3>
+	<ul>
+		{% for dkpost in site.categories.DK limit: 10 %}
+            <li><a href="{{ dkpost.url }}" title="{{ dkpost.title }}">{{ dkpost.title }}</a></li>
+        {% endfor %}
+	</ul>
+
 </div>
