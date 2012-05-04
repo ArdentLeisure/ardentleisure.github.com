@@ -9,8 +9,11 @@ tags: []
 
 
 Our Ecommerce platforms account for a large percentage of revenue across companies in the group.
+Dreamworld Online shop does about 25% of the total ticket revenue.
 
-Monitoring Tools
+We have just recently got onboard with New Relic for detailed server performance monitoring and I must say its awesome!
+
+Tools we use
 <ul>
     <li>New Relic</li>
     <li>MiniProfiler</li>
