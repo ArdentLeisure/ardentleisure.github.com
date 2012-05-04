@@ -90,7 +90,10 @@ li.member
     }
 
 /*** Our Team Details ***/
-.memberdetails
+.memberdetails .sidebar img {
+    margin-left: 12px;
+}
+/*.memberdetails
 {
     
 }
@@ -101,7 +104,7 @@ li.member
     }
         .memberdetails .sidebar img {
             margin-left: 12px;
-        }
+        }*/
 
 
 @media (max-width: 979px)
