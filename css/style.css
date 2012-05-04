@@ -1,5 +1,5 @@
 ﻿/* Post meta info */
-div#post-metadata { padding:0; margin: 0; display: block; overflow: hidden; margin-bottom: 12px; }
+div#post-metadata { padding:0; margin: 0; display: block; overflow: hidden; margin-bottom: 12px; margin-top: 12px; }
 div#post-metadata .post-date-block { width: 34px; height: 34px; }
 div#post-metadata .post-date-block .month { font-size: 17px; height: 20px; line-height: 17px; margin: 0; }
 div#post-metadata .post-date-block .day { font-size: 17px; height: 16px; line-height:16px; width:60%; }
@@ -16,3 +16,98 @@ div#post-metadata div.post-author .avatar a img { max-width : 27px;  max-height:
 .post-date-block .day { font-size: 28px; line-height: 25px; height: 25px; margin: 0; padding: 0; float: left; width: 35px; border-right: solid 1px #fff; font-weight: bold; }
 .post-date-block .year { font-size: 12px; margin: 0; padding: 0; float: right; width: 20px; text-align: right; line-height: 12px; }
 div#post-metadata div.post-date-block { display: block; float:left; position: relative; top: 0; }
+
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  font-family: "Segoe UI", "Segoe WP", "Helvetica Neue", 'RobotoRegular', sans-serif;
+  font-size: 14px;
+}
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('../fonts/Roboto-Regular-webfont.eot');
+  src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Regular-webfont.woff') format('woff'), url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'), url('../fonts/Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('../fonts/Roboto-Light-webfont.eot');
+  src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Light-webfont.woff') format('woff'), url('../fonts/Roboto-Light-webfont.ttf') format('truetype'), url('../fonts/Roboto-Light-webfont.svg#RobotoLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI Light", "Helvetica Neue", 'RobotoLight', "Segoe UI", "Segoe WP", sans-serif;
+  font-weight: 100;
+  margin-top: 5px;
+  margin-bottom: 6px;
+  text-transform: lowercase;
+}
+h1 {
+  font-size: 56px;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 28px;
+}
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h1.entry-title {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 6px;
+    line-height: 55px;
+}
+
+/*** Our Team ***/
+ul.ourteam
+{
+    margin: 0;
+}
+li.member
+{
+    list-style: none;
+    margin: 12px 12px 12px 0;
+    border: 1px solid #eee;
+    padding: 6px;
+}
+    li.member img
+    {
+        float:  left;
+        margin-right: 8px;
+    }
+
+/*** Our Team Details ***/
+.memberdetails
+{
+    
+}
+    .memberdetails .sidebar {
+        float: left;
+        width:  120px;
+        margin-right: 12px;
+    }
+        .memberdetails .sidebar img {
+            margin-left: 12px;
+        }
+
+
+@media (max-width: 979px)
+{
+    body
+    {
+        padding-top: 0;
+    }
+}
