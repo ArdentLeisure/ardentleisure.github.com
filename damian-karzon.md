@@ -19,7 +19,7 @@ permalink: /team/damian-karzon/
 		<h3>Posts by Damian</h3>
 		<ul>
 			{% for dkpost in site.categories.DK limit: 10 %}
-				<li><a href="{{ dkpost.url }}" title="{{ dkpost.title }}">{{ dkpost.title }}</a></li>
+				<li><a href="{{ dkpost.url }}">{{ dkpost.title }}</a></li>
 			{% endfor %}
 		</ul>
 	<div>
