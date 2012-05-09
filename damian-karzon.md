@@ -12,16 +12,10 @@ permalink: /team/damian-karzon/
 			<li class="twitter"><a href="https://twitter.com/d1k_is">Twitter</a></li>
 		</ul>
 	</div>
-
 	<div class="span10">
 		<p><em>Lead Software Developer</em></p>
-
-		<p>
-			Damian is a .NET developer who has been working with Ardent Leisure since early 2009.
-		</p>
-
+		<p>Damian is a .NET developer who has been working with Ardent Leisure since early 2009.</p>
 		<p>With over 5 years experience in software development.</p>
-
 		<h3>Posts by Damian</h3>
 		<ul>
 			{% for dkpost in site.categories.DK limit: 10 %}
@@ -29,5 +23,4 @@ permalink: /team/damian-karzon/
 			{% endfor %}
 		</ul>
 	<div>
-
 </div>
