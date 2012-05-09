@@ -6,7 +6,7 @@ permalink: /team/damian-karzon/
 
 <div class="memberdetails row-fluid">
 	<div class="span2 sidebar">
-		<img src="http://1.gravatar.com/avatar/1ea2829caf0b9135cd7ece795ccde774&#63;size=72" border="0" alt="Author" class="authimg" />
+		<img src="http://1.gravatar.com/avatar/1ea2829caf0b9135cd7ece795ccde774?size=72" border="0" alt="Author" class="authimg"></img>
 		<ul class="memberlinks">
 			<li class="blog"><a href="http://dkdevelopment.net">Damians Blog</a></li>
 			<li class="twitter"><a href="https://twitter.com/d1k_is">Twitter</a></li>
@@ -22,5 +22,5 @@ permalink: /team/damian-karzon/
 				<li><a href="{{ dkpost.url }}" title="{{ dkpost.title }}">{{ dkpost.title }}</a></li>
 			{% endfor %}
 		</ul>
-	<div>
+	</div>
 </div>
