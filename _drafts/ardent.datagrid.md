@@ -34,5 +34,6 @@ So I decided to write my own with a few main goals in mind:
 <h4>Current limitations</h4>
 <ul>
     <li>No in-grid editing - The grid was designed to be readonly to make it lightweight</li>
-    <li>DateTime values output is not the same format as searching ()</li>
+    <li>DateTime values output is not the same format as searching</li>
+    <li>No support for enum values</li>
 </ul>

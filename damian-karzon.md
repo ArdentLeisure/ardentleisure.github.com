@@ -5,7 +5,7 @@ permalink: /team/damian-karzon/
 ---
 
 <div class="memberdetails row-fluid">
-	<div class="span2 sidebar">
+	<div class="span2 whobar">
 		<img src="http://1.gravatar.com/avatar/1ea2829caf0b9135cd7ece795ccde774?size=72" border="0" alt="Author" class="authimg"></img>
 		<ul class="memberlinks">
 			<li class="blog"><a href="http://dkdevelopment.net">Damians Blog</a></li>

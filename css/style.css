@@ -7,11 +7,11 @@ div#post-metadata .post-date-block .year { font-size:10px; line-height:8px; widt
 div#post-metadata .post-author { border: 1px solid #ccc; margin-left: 40px; position: relative; float:left; display: block; }
 div#post-metadata .post-author .user-name { position: relative; float:left; display: block; }
 div#post-metadata .user-name { float:left; color: #000; word-wrap: normal; padding: 0 10px; line-height: 44px; }
-div#post-metadata .user-name a { font-size: 14px; }
+div#post-metadata .user-name a { font-size: 14px; color: #AD1D28; }
 div#post-metadata .avatar-shell { float:left; margin-left: 10px; border-left: solid 1px #CCC; }
 div#post-metadata .avatar  { float:left; margin-left: 10px; }
 div#post-metadata div.post-author .avatar a img { max-width : 27px;  max-height: 27px; }
-.post-date-block { display: block; position: absolute; top: 10px; left: 0; background: #1BA1E2; width:56px; height: 50px; color: #fff; padding: 5px; font-family: Arial; }
+.post-date-block { display: block; position: absolute; top: 10px; left: 0; background: #AD1D28; width:56px; height: 50px; color: #fff; padding: 5px; font-family: Arial; }
 .post-date-block .month { font-size: 24px; line-height: 25px; height: 23px; margin: 0; padding: 0; text-transform: uppercase; margin: 0 0 4px 0; font-weight: bold; }
 .post-date-block .day { font-size: 28px; line-height: 25px; height: 25px; margin: 0; padding: 0; float: left; width: 35px; border-right: solid 1px #fff; font-weight: bold; }
 .post-date-block .year { font-size: 12px; margin: 0; padding: 0; float: right; width: 20px; text-align: right; line-height: 12px; }
@@ -24,9 +24,28 @@ body {
 }
 .sidebar
 {
-    background-color: #0F8790;
+    border-left: 6px solid #299319;
     padding: 4px;
+    padding-left: 8px;
 }
+    .sidebar ul, .whobar ul
+    {
+        margin-left: 0;
+    }
+    .sidebar li, .whobar li
+    {
+        list-style: none;
+    }
+.whobar
+{
+    border-left: 6px solid #AD1D28;
+    padding: 4px;
+    padding-left: 8px;
+}
+    .whobar a
+    {
+        color: #AD1D28;
+    }
 h1,
 h2,
 h3,
@@ -39,13 +58,13 @@ h6 {
   text-transform: lowercase;
 }
 h1 {
-  font-size: 42px;
-}
-h2 {
   font-size: 36px;
 }
+h2 {
+  font-size: 24px;
+}
 h3 {
-  font-size: 28px;
+  font-size: 22px;
 }
 h4,
 h5,
@@ -59,6 +78,18 @@ h1.entry-title {
     margin-bottom: 6px;
     line-height: 55px;
 }
+ 
+/*** Home Page ***/
+#homeposts
+{
+    margin: 0;
+}
+    #homeposts li
+    {
+        list-style: none;
+        font-size: 20px;
+        margin-top: 6px;
+    }
 
 /*** Our Team ***/
 ul.ourteam

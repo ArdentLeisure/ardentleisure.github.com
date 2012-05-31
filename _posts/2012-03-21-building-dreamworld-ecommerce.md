@@ -19,7 +19,7 @@ tags: []
 
 <h3>So what did we need?</h3>
 <ul>
-    <li>Integreated with existing POS system</li>
+    <li>Integrated with existing POS system</li>
     <li>Fast!</li>
     <li>Customisable</li>
     <li>Stable/Scalable (Whatever that means)</li>

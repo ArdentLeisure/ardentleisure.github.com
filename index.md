@@ -9,8 +9,8 @@ layout : layout
     </div>
 
     <h2>Posts</h2>
-    <ul id="archive">
-        {% for post in site.posts limit: 14 %}
+    <ul id="homeposts">
+        {% for post in site.posts limit: 15 %}
 		    <li>
 			    <a href="{{ post.url }}">{{ post.title }}</a>
 			    <span class="date">{{ post.date | date: "%d %B, %Y" }}</span>
